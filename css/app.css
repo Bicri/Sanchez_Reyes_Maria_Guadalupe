@@ -27,6 +27,9 @@ h2{
     padding: 0;
     margin: 5rem 0;
 }
+h3{
+    font-size: 3rem;
+}
 
 main section:first-of-type h2{
     text-align: left;
@@ -37,7 +40,7 @@ main section:last-of-type h2{
 }
 
 p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 2;
 }
 
@@ -47,9 +50,9 @@ p{
     margin: 0 auto;
 }
 
-a{
+/* a{
     text-decoration: none;
-}
+} */
 
 img {
     display: block;
@@ -66,6 +69,7 @@ ul{
 
 li{
     margin: 0.5rem 0;
+    font-size: 1.8rem;
 }
 
 textarea{
@@ -79,6 +83,7 @@ header{
     align-items: center;
 
     background-color: #58D68D;
+    padding-top: 5rem;
 }
 
 header div{
@@ -91,12 +96,12 @@ header div p{
 }
 
 footer{
+    margin-top: 5rem;
+    padding-bottom: 5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-
-footer p{
-    font-size: 3rem;
+    align-items: center;
 }
 
 .imagenTexto{
@@ -113,4 +118,11 @@ footer p{
 
 .center{
     text-align: center;
+}
+
+.contenidoCentrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
